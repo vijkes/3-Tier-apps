@@ -1,0 +1,61 @@
+Started by user [8mha:////4CMaUPQxOfaBOaOfKohYnRHLhfH7O1Ua8Mwz9KXiWpvQAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/dLi1CL9smwApW/hfL0AAAA=[0mvk
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/jobA
+Unpacking https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.11_9.tar.gz to /var/lib/jenkins/tools/hudson.model.JDK/jdk17 on Jenkins
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jaiswaladi246/FullStack-Blogging-App.git
+ > git init /var/lib/jenkins/workspace/jobA # timeout=10
+Fetching upstream changes from https://github.com/jaiswaladi246/FullStack-Blogging-App.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jaiswaladi246/FullStack-Blogging-App.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jaiswaladi246/FullStack-Blogging-App.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision bddb0220e73f329c77ef6a291e05511a17a5e2d8 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bddb0220e73f329c77ef6a291e05511a17a5e2d8 # timeout=10
+Commit message: "Update pom.xml"
+First time build. Skipping changelog.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn3 on Jenkins
+FATAL: Failed to install https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn3
+java.io.IOException: Invalid mode: 4095
+	at hudson.Util.modeToPermissions(Util.java:1729)
+	at hudson.FilePath._chmod(FilePath.java:2010)
+	at hudson.FilePath$Chmod.invoke(FilePath.java:1996)
+	at hudson.FilePath$Chmod.invoke(FilePath.java:1986)
+	at hudson.FilePath.act(FilePath.java:1235)
+	at hudson.FilePath.act(FilePath.java:1218)
+	at hudson.FilePath.chmod(FilePath.java:1983)
+	at hudson.FilePath.unzip(FilePath.java:737)
+	at hudson.FilePath.unzip(FilePath.java:704)
+	at hudson.FilePath$UnzipFrom.invoke(FilePath.java:692)
+	at hudson.FilePath$UnzipFrom.invoke(FilePath.java:683)
+	at hudson.FilePath.act(FilePath.java:1235)
+	at hudson.FilePath.act(FilePath.java:1218)
+	at hudson.FilePath.unzipFrom(FilePath.java:680)
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1061)
+Caused: java.io.IOException: Failed to unpack https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip (2919967 bytes read of total 2919967)
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1065)
+Caused: java.io.IOException: Failed to install https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn3
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1075)
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:970)
+	at hudson.tools.DownloadFromUrlInstaller.performInstallation(DownloadFromUrlInstaller.java:77)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:682)
+	at hudson.tasks.Maven.perform(Maven.java:318)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1894)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:446)
+Finished: FAILURE

@@ -1,0 +1,154 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-bc971eb95d109cc2fa6ad1bd63591c32/.git # timeout=10
+Setting origin to https://github.com/vijkes/FullStack-Blogging-App.git
+ > git config remote.origin.url https://github.com/vijkes/FullStack-Blogging-App.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/develop
+Seen branch in repository origin/feature1
+Seen branch in repository origin/feature2
+Seen branch in repository origin/main
+Seen 5 remote branches
+Obtained Jenkinsfile from 508bdaf5b5d08251cd4afa84b796947766a4f5e0
+[8mha:////4KbRbomJBk7Y/Q+UJFoUIfQnPiOrvGc6z4i4s6ntRHnzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FH/KDP7azSwil0dbjr2zdpj5nh82rZcd5pHYAB/ckzmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KAxdWE+YvZNlj/ZxmDCab1lmp92XyX8tRNzSYlPhY4/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 in /home/hpuser/slave/workspace/jobC-multibranch_main
+[8mha:////4JK/Rl+BSutulNbrVNnJwSqrn8kSKuz2u2ph6suOceeaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NVWsK217KNYGA/VyZUsjFwO/o9jZgO7FafiQhDvIwlyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HsckdHMPxH8u6XkHaNfopIZK757d3990KLaUw78izxkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4JDt85dlJp1mfWjxds1mRV9wRn7YVJi8c0GUJi/DDodOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 508bdaf5b5d08251cd4afa84b796947766a4f5e0 (main)
+ > git rev-parse --resolve-git-dir /home/hpuser/slave/workspace/jobC-multibranch_main/.git # timeout=10
+ > git config remote.origin.url https://github.com/vijkes/FullStack-Blogging-App.git # timeout=10
+Fetching upstream changes from https://github.com/vijkes/FullStack-Blogging-App.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --no-tags --force --progress -- https://github.com/vijkes/FullStack-Blogging-App.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 508bdaf5b5d08251cd4afa84b796947766a4f5e0 # timeout=10
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk 1fa10343e282c29e1f91df6ebd7451bd669e125a # timeout=10
+[8mha:////4PAGd5/IjIjPN/jxJBkIj25EwyBJ8/mkAymdiv1IvX8tAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G/F4GwANKx64pCW4vuudjC9N7zDBGlMCzwtHmrLKvHOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4G6H2YE4JUVqIqt34iRotfTyx/b3SSS1NpIn5T8kX/C6AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4NmzVLiLWTmDiNqYFI7t/E+3KZBVXgfUIylnu5y1AWsOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4In7h0lYGD6scnOvaei1CIC0Qfka4kv8FTW6RbeqrtPmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4G0XeKLGPdjaeQlCoJ53unAnPiZpiDp9jKvSK+4MeBZdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4ArQRWy5DTc0bBw0ruLWe/umxDeHccawH5aeKuSYXmlhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip to /home/hpuser/slave/tools/hudson.tasks.Maven_MavenInstallation/maven3 on slave1
+ERROR: Failed to download https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip from agent; will retry from controller
+java.io.IOException: Invalid mode: 4095
+	at Jenkins v2.462.1//hudson.Util.modeToPermissions(Util.java:1729)
+	at Jenkins v2.462.1//hudson.FilePath._chmod(FilePath.java:2010)
+	at Jenkins v2.462.1//hudson.FilePath$Chmod.invoke(FilePath.java:1996)
+	at Jenkins v2.462.1//hudson.FilePath$Chmod.invoke(FilePath.java:1986)
+	at Jenkins v2.462.1//hudson.FilePath.act(FilePath.java:1235)
+	at Jenkins v2.462.1//hudson.FilePath.act(FilePath.java:1218)
+	at Jenkins v2.462.1//hudson.FilePath.chmod(FilePath.java:1983)
+	at Jenkins v2.462.1//hudson.FilePath.unzip(FilePath.java:737)
+	at Jenkins v2.462.1//hudson.FilePath.unzip(FilePath.java:704)
+	at Jenkins v2.462.1//hudson.FilePath$Unpack.invoke(FilePath.java:1111)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to slave1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1826)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1042)
+		at hudson.FilePath.act(FilePath.java:1229)
+		at hudson.FilePath.act(FilePath.java:1218)
+		at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1044)
+		at hudson.FilePath.installIfNecessaryFrom(FilePath.java:970)
+		at hudson.tools.DownloadFromUrlInstaller.performInstallation(DownloadFromUrlInstaller.java:77)
+		at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+		at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+		at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+		at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:682)
+		at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:495)
+		at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:157)
+		at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:138)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+Caused: java.io.IOException: Failed to unpack https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip (2919967 bytes read)
+	at Jenkins v2.462.1//hudson.FilePath$Unpack.invoke(FilePath.java:1116)
+	at Jenkins v2.462.1//hudson.FilePath$Unpack.invoke(FilePath.java:1099)
+	at Jenkins v2.462.1//hudson.FilePath$FileCallableWrapper.call(FilePath.java:3615)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[8mha:////4C5FnHZEsHJZ9jOIPGKCSX8oMKhp7k7PrjLSCevSBNQzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4EdO9y0ERpodNduNh5cMMyA41g3qQhMN1+rteq4YGQSSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4HW6xmIMu5HXaQl0z843jgDcNdGY5DiosHVMaXndpHRXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyqSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfl6fofL4AAAA=[0m[Pipeline] }
+[8mha:////4JgyqdmscyXIaapKgwtlTpZGDfjE9Zj2TpfX3R8H1AJbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BtQlufq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4GwLjWdn/ikuRrLO/AQeqxEAwSIysWgIeiYwqPVzf8OKAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APRJVd+9AAAA[0m[Pipeline] }
+[8mha:////4JcUHB87Fr67fIuv5baeDNjB6vElwYGTeNnGVM0ZJn8FAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T+IzLXKvQAAAA==[0m[Pipeline] // node
+[8mha:////4Fz5RPJbc9Por9hSgioL69J35vP7bXznBUkoyCfa78AvAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K83Auy8gOu1dKAvQAAAA==[0m[Pipeline] End of Pipeline
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to slave1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1826)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1042)
+		at hudson.FilePath.act(FilePath.java:1229)
+		at hudson.FilePath.act(FilePath.java:1218)
+		at hudson.FilePath.unzipFrom(FilePath.java:680)
+		at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1061)
+		at hudson.FilePath.installIfNecessaryFrom(FilePath.java:970)
+		at hudson.tools.DownloadFromUrlInstaller.performInstallation(DownloadFromUrlInstaller.java:77)
+		at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+		at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+		at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+		at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:682)
+		at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:495)
+		at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:157)
+		at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:138)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.io.IOException: Invalid mode: 4095
+	at Jenkins v2.462.1//hudson.Util.modeToPermissions(Util.java:1729)
+	at Jenkins v2.462.1//hudson.FilePath._chmod(FilePath.java:2010)
+	at Jenkins v2.462.1//hudson.FilePath$Chmod.invoke(FilePath.java:1996)
+	at Jenkins v2.462.1//hudson.FilePath$Chmod.invoke(FilePath.java:1986)
+	at Jenkins v2.462.1//hudson.FilePath.act(FilePath.java:1235)
+	at Jenkins v2.462.1//hudson.FilePath.act(FilePath.java:1218)
+	at Jenkins v2.462.1//hudson.FilePath.chmod(FilePath.java:1983)
+	at Jenkins v2.462.1//hudson.FilePath.unzip(FilePath.java:737)
+	at Jenkins v2.462.1//hudson.FilePath.unzip(FilePath.java:704)
+	at Jenkins v2.462.1//hudson.FilePath$UnzipFrom.invoke(FilePath.java:692)
+	at Jenkins v2.462.1//hudson.FilePath$UnzipFrom.invoke(FilePath.java:683)
+	at Jenkins v2.462.1//hudson.FilePath$FileCallableWrapper.call(FilePath.java:3615)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+Caused: java.io.IOException: Failed to unpack https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip (2919967 bytes read of total 2919967)
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1065)
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 2bff2aba-9211-4f35-afa5-bebeca02278d
+Caused: java.io.IOException: Failed to install https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.0/apache-maven-3.0-bin.zip to /home/hpuser/slave/tools/hudson.tasks.Maven_MavenInstallation/maven3
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:1075)
+	at hudson.FilePath.installIfNecessaryFrom(FilePath.java:970)
+	at hudson.tools.DownloadFromUrlInstaller.performInstallation(DownloadFromUrlInstaller.java:77)
+	at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+	at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+	at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+	at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:682)
+	at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:495)
+	at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:157)
+	at PluginClassLoader for workflow-basic-steps//org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:138)
+	at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Finished: FAILURE

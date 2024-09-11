@@ -1,0 +1,322 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.gwt.GenericCause plugin="generic-webhook-trigger@2.2.2">
+            <resolvedVariables class="tree-map">
+              <entry>
+                <string>ref</string>
+                <string>refs/heads/main</string>
+              </entry>
+            </resolvedVariables>
+            <postContent>{&quot;ref&quot;:&quot;refs/heads/main&quot;,&quot;before&quot;:&quot;508bdaf5b5d08251cd4afa84b796947766a4f5e0&quot;,&quot;after&quot;:&quot;655c852fa9b34ca92d647eecd90a79d481800994&quot;,&quot;repository&quot;:{&quot;id&quot;:852073691,&quot;node_id&quot;:&quot;R_kgDOMsmc2w&quot;,&quot;name&quot;:&quot;FullStack-Blogging-App&quot;,&quot;full_name&quot;:&quot;vijkes/FullStack-Blogging-App&quot;,&quot;private&quot;:false,&quot;owner&quot;:{&quot;name&quot;:&quot;vijkes&quot;,&quot;email&quot;:&quot;97831607+vijkes@users.noreply.github.com&quot;,&quot;login&quot;:&quot;vijkes&quot;,&quot;id&quot;:97831607,&quot;node_id&quot;:&quot;U_kgDOBdTKtw&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/97831607?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/vijkes&quot;,&quot;html_url&quot;:&quot;https://github.com/vijkes&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/vijkes/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/vijkes/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/vijkes/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/vijkes/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/vijkes/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/vijkes/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/vijkes/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/vijkes/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/vijkes/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;site_admin&quot;:false},&quot;html_url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App&quot;,&quot;description&quot;:null,&quot;fork&quot;:true,&quot;url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App&quot;,&quot;forks_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/forks&quot;,&quot;keys_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/keys{/key_id}&quot;,&quot;collaborators_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/collaborators{/collaborator}&quot;,&quot;teams_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/teams&quot;,&quot;hooks_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/hooks&quot;,&quot;issue_events_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/issues/events{/number}&quot;,&quot;events_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/events&quot;,&quot;assignees_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/assignees{/user}&quot;,&quot;branches_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/branches{/branch}&quot;,&quot;tags_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/tags&quot;,&quot;blobs_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/git/blobs{/sha}&quot;,&quot;git_tags_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/git/tags{/sha}&quot;,&quot;git_refs_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/git/refs{/sha}&quot;,&quot;trees_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/git/trees{/sha}&quot;,&quot;statuses_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/statuses/{sha}&quot;,&quot;languages_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/languages&quot;,&quot;stargazers_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/stargazers&quot;,&quot;contributors_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/contributors&quot;,&quot;subscribers_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/subscribers&quot;,&quot;subscription_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/subscription&quot;,&quot;commits_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/commits{/sha}&quot;,&quot;git_commits_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/git/commits{/sha}&quot;,&quot;comments_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/comments{/number}&quot;,&quot;issue_comment_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/issues/comments{/number}&quot;,&quot;contents_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/contents/{+path}&quot;,&quot;compare_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/compare/{base}...{head}&quot;,&quot;merges_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/merges&quot;,&quot;archive_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/{archive_format}{/ref}&quot;,&quot;downloads_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/downloads&quot;,&quot;issues_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/issues{/number}&quot;,&quot;pulls_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/pulls{/number}&quot;,&quot;milestones_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/milestones{/number}&quot;,&quot;notifications_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/notifications{?since,all,participating}&quot;,&quot;labels_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/labels{/name}&quot;,&quot;releases_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/releases{/id}&quot;,&quot;deployments_url&quot;:&quot;https://api.github.com/repos/vijkes/FullStack-Blogging-App/deployments&quot;,&quot;created_at&quot;:1725434233,&quot;updated_at&quot;:&quot;2024-09-05T18:43:11Z&quot;,&quot;pushed_at&quot;:1725561965,&quot;git_url&quot;:&quot;git://github.com/vijkes/FullStack-Blogging-App.git&quot;,&quot;ssh_url&quot;:&quot;git@github.com:vijkes/FullStack-Blogging-App.git&quot;,&quot;clone_url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App.git&quot;,&quot;svn_url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App&quot;,&quot;homepage&quot;:null,&quot;size&quot;:50,&quot;stargazers_count&quot;:0,&quot;watchers_count&quot;:0,&quot;language&quot;:&quot;HTML&quot;,&quot;has_issues&quot;:false,&quot;has_projects&quot;:true,&quot;has_downloads&quot;:true,&quot;has_wiki&quot;:false,&quot;has_pages&quot;:false,&quot;has_discussions&quot;:false,&quot;forks_count&quot;:0,&quot;mirror_url&quot;:null,&quot;archived&quot;:false,&quot;disabled&quot;:false,&quot;open_issues_count&quot;:0,&quot;license&quot;:null,&quot;allow_forking&quot;:true,&quot;is_template&quot;:false,&quot;web_commit_signoff_required&quot;:false,&quot;topics&quot;:[],&quot;visibility&quot;:&quot;public&quot;,&quot;forks&quot;:0,&quot;open_issues&quot;:0,&quot;watchers&quot;:0,&quot;default_branch&quot;:&quot;main&quot;,&quot;stargazers&quot;:0,&quot;master_branch&quot;:&quot;main&quot;},&quot;pusher&quot;:{&quot;name&quot;:&quot;vijkes&quot;,&quot;email&quot;:&quot;97831607+vijkes@users.noreply.github.com&quot;},&quot;sender&quot;:{&quot;login&quot;:&quot;vijkes&quot;,&quot;id&quot;:97831607,&quot;node_id&quot;:&quot;U_kgDOBdTKtw&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/97831607?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/vijkes&quot;,&quot;html_url&quot;:&quot;https://github.com/vijkes&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/vijkes/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/vijkes/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/vijkes/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/vijkes/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/vijkes/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/vijkes/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/vijkes/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/vijkes/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/vijkes/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;site_admin&quot;:false},&quot;created&quot;:false,&quot;deleted&quot;:false,&quot;forced&quot;:false,&quot;base_ref&quot;:null,&quot;compare&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App/compare/508bdaf5b5d0...655c852fa9b3&quot;,&quot;commits&quot;:[{&quot;id&quot;:&quot;655c852fa9b34ca92d647eecd90a79d481800994&quot;,&quot;tree_id&quot;:&quot;598af42126c10116a2ee4369480eea83c48954a7&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;Update Jenkinsfile&quot;,&quot;timestamp&quot;:&quot;2024-09-06T00:16:05+05:30&quot;,&quot;url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App/commit/655c852fa9b34ca92d647eecd90a79d481800994&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;vij_kes&quot;,&quot;email&quot;:&quot;97831607+vijkes@users.noreply.github.com&quot;,&quot;username&quot;:&quot;vijkes&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;GitHub&quot;,&quot;email&quot;:&quot;noreply@github.com&quot;,&quot;username&quot;:&quot;web-flow&quot;},&quot;added&quot;:[],&quot;removed&quot;:[],&quot;modified&quot;:[&quot;Jenkinsfile&quot;]}],&quot;head_commit&quot;:{&quot;id&quot;:&quot;655c852fa9b34ca92d647eecd90a79d481800994&quot;,&quot;tree_id&quot;:&quot;598af42126c10116a2ee4369480eea83c48954a7&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;Update Jenkinsfile&quot;,&quot;timestamp&quot;:&quot;2024-09-06T00:16:05+05:30&quot;,&quot;url&quot;:&quot;https://github.com/vijkes/FullStack-Blogging-App/commit/655c852fa9b34ca92d647eecd90a79d481800994&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;vij_kes&quot;,&quot;email&quot;:&quot;97831607+vijkes@users.noreply.github.com&quot;,&quot;username&quot;:&quot;vijkes&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;GitHub&quot;,&quot;email&quot;:&quot;noreply@github.com&quot;,&quot;username&quot;:&quot;web-flow&quot;},&quot;added&quot;:[],&quot;removed&quot;:[],&quot;modified&quot;:[&quot;Jenkinsfile&quot;]}}</postContent>
+            <printContributedVariables>false</printContributedVariables>
+            <printPostContent>false</printPostContent>
+            <postContentPrinted>false</postContentPrinted>
+            <cause>Generic Cause</cause>
+          </org.jenkinsci.plugins.gwt.GenericCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>jenkins-generic-webhook-trigger-plugin_uuid</name>
+          <value>357a6378-b109-49e6-ad23-5e2e2ab7e77a</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>6653</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>6650</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@730.ve57b_34648c63">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <stagesUUID>ce8cbc2b-3426-4d1e-bf29-4c510b9a507c</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2214.vb_b_34b_2ea_9b_83">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Compile</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn compile</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Test</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn test</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Package</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn package</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>ce8cbc2b-3426-4d1e-bf29-4c510b9a507c</uuid>
+          </stages>
+          <agent>
+            <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+              <value class="string">slave1</value>
+            </variables>
+            <agentType>
+              <key>label</key>
+            </agentType>
+          </agent>
+          <tools>
+            <tools class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>maven</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">maven3</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>jdk</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">jdk17</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </tools>
+          </tools>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.4.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@5.0.0">
+              <sha1>bddb0220e73f329c77ef6a291e05511a17a5e2d8</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@5.0.0">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>10</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@5.0.0">
+              <sha1>655c852fa9b34ca92d647eecd90a79d481800994</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>15</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry[2]/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/vijkes/FullStack-Blogging-App.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@427.v4ca_6512e7df1">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/vijkes/FullStack-Blogging-App.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>33</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>23</buildableDurationMillis>
+      <waitingDurationMillis>6</waitingDurationMillis>
+      <executingDurationMillis>1333</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>55</queueId>
+  <timestamp>1725561972836</timestamp>
+  <startTime>1725561972847</startTime>
+  <result>FAILURE</result>
+  <duration>2173</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent { label &apos;slave1&apos; }
+    tools {
+      maven &apos;maven3&apos;
+      jdk &apos;jdk17&apos;
+    }
+     
+    stages {
+        // stage(&apos;Git Checkout&apos;) {
+        //     steps {
+        //         git branch: &apos;main&apos;, url: &apos;https://github.com/vijkes/FullStack-Blogging-App.git&apos;
+        //     }
+        // }
+        stage(&apos;Compile&apos;) {
+            steps {
+                sh &apos;mvn compile&apos;
+            }
+        }
+        stage(&apos;Test&apos;) {
+            steps {
+                sh &apos;mvn test&apos;
+            }
+        }
+        stage(&apos;Package&apos;) {
+            steps {
+                sh &apos;mvn package&apos;
+            }
+        }
+
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>222874349</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>258826316</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>726617227</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>813579395</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>36583835</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>147605591</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>21</iota>
+    <head>1:21</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.4.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/vijkes/FullStack-Blogging-App.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions/>
+      </scm>
+      <node>slave1</node>
+      <workspace>/home/hpuser/slave/workspace/jobB-pipeline</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/jobB-pipeline/builds/15/changelog9802693749786100344.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

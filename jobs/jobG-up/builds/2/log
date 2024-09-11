@@ -1,0 +1,8 @@
+Started by user [8mha:////4CMaUPQxOfaBOaOfKohYnRHLhfH7O1Ua8Mwz9KXiWpvQAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/dLi1CL9smwApW/hfL0AAAA=[0mvk
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/jobG-up
+[jobG-up] $ /bin/sh -xe /tmp/jenkins13989639544567207426.sh
++ echo build from jobG-up
+build from jobG-up
+Triggering a new build of [8mha:////4NUHuO7OpYOPqNwyfVPdAwPExtGL7SNqMPIR95/WoAmQAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JBD20E3JL8/TBwBT36huxAAAAA==[0mjobH-down
+Finished: SUCCESS

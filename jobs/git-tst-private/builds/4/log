@@ -1,0 +1,160 @@
+Started by user [8mha:////4CMaUPQxOfaBOaOfKohYnRHLhfH7O1Ua8Mwz9KXiWpvQAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/dLi1CL9smwApW/hfL0AAAA=[0mvk
+[8mha:////4KbRbomJBk7Y/Q+UJFoUIfQnPiOrvGc6z4i4s6ntRHnzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FH/KDP7azSwil0dbjr2zdpj5nh82rZcd5pHYAB/ckzmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Llb+cHH+CWXUCpUKcEbfismnyxPT1YLY/IKp/XYKmPZAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/git-tst-private
+[8mha:////4JK/Rl+BSutulNbrVNnJwSqrn8kSKuz2u2ph6suOceeaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NVWsK217KNYGA/VyZUsjFwO/o9jZgO7FafiQhDvIwlyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HsckdHMPxH8u6XkHaNfopIZK757d3990KLaUw78izxkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Git checkout)
+[8mha:////4JDt85dlJp1mfWjxds1mRV9wRn7YVJi8c0GUJi/DDodOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential git-cred
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/git-tst-private/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vijkes/secret-santa-generator.git # timeout=10
+Fetching upstream changes from https://github.com/vijkes/secret-santa-generator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials git-cred
+ > git fetch --tags --force --progress -- https://github.com/vijkes/secret-santa-generator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9091a88c3c668dde5e68cfafd6ae8bf76bdc3f9e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9091a88c3c668dde5e68cfafd6ae8bf76bdc3f9e # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 9091a88c3c668dde5e68cfafd6ae8bf76bdc3f9e # timeout=10
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 9091a88c3c668dde5e68cfafd6ae8bf76bdc3f9e # timeout=10
+[8mha:////4PAGd5/IjIjPN/jxJBkIj25EwyBJ8/mkAymdiv1IvX8tAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G/F4GwANKx64pCW4vuudjC9N7zDBGlMCzwtHmrLKvHOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4G6H2YE4JUVqIqt34iRotfTyx/b3SSS1NpIn5T8kX/C6AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4NmzVLiLWTmDiNqYFI7t/E+3KZBVXgfUIylnu5y1AWsOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Package)
+[8mha:////4G/oUi6UvDRAjekMD7U88ilKzj62/QCvX7IVwet+CIjQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.notthebest:secretsanta[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding secretsanta 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 9 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/git-tst-private/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/git-tst-private/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/git-tst-private/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36msecretsanta[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom
+Progress (1): 2.8/7.0 kBProgress (1): 5.5/7.0 kBProgress (1): 7.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom (7.0 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom (2.5 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom (2.2 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom
+Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom (2.4 kB at 126 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom (2.0 kB at 106 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar
+Progress (1): 2.8/66 kBProgress (1): 5.5/66 kBProgress (1): 8.3/66 kBProgress (1): 11/66 kB Progress (1): 14/66 kBProgress (1): 16/66 kBProgress (1): 20/66 kBProgress (1): 24/66 kBProgress (1): 28/66 kBProgress (1): 32/66 kB                      Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar
+Progress (1): 36/66 kBProgress (1): 40/66 kBProgress (1): 45/66 kBProgress (1): 49/66 kBProgress (1): 53/66 kBProgress (1): 57/66 kBProgress (1): 61/66 kBProgress (1): 65/66 kBProgress (1): 66 kB   Progress (2): 66 kB | 2.2 kB                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar (66 kB at 984 kB/s)
+Progress (2): 2.2 kB | 2.8/135 kBProgress (2): 2.2 kB | 5.5/135 kB                                 Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+Progress (2): 2.2 kB | 8.3/135 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 28 kB/s)
+Progress (2): 8.3/135 kB | 4.1/78 kBProgress (2): 8.3/135 kB | 8.2/78 kBProgress (2): 8.3/135 kB | 12/78 kB Progress (2): 8.3/135 kB | 16/78 kBProgress (3): 8.3/135 kB | 16/78 kB | 2.8/7.1 kBProgress (4): 8.3/135 kB | 16/78 kB | 2.8/7.1 kB | 2.8/95 kBProgress (4): 8.3/135 kB | 16/78 kB | 2.8/7.1 kB | 5.5/95 kBProgress (4): 8.3/135 kB | 20/78 kB | 2.8/7.1 kB | 5.5/95 kBProgress (4): 8.3/135 kB | 25/78 kB | 2.8/7.1 kB | 5.5/95 kBProgress (4): 8.3/135 kB | 29/78 kB | 2.8/7.1 kB | 5.5/95 kBProgress (4): 11/135 kB | 29/78 kB | 2.8/7.1 kB | 5.5/95 kB Progress (4): 11/135 kB | 29/78 kB | 2.8/7.1 kB | 8.3/95 kBProgress (4): 11/135 kB | 29/78 kB | 5.5/7.1 kB | 8.3/95 kBProgress (4): 11/135 kB | 29/78 kB | 5.5/7.1 kB | 11/95 kB Progress (4): 11/135 kB | 33/78 kB | 5.5/7.1 kB | 11/95 kBProgress (4): 14/135 kB | 33/78 kB | 5.5/7.1 kB | 11/95 kBProgress (4): 17/135 kB | 33/78 kB | 5.5/7.1 kB | 11/95 kBProgress (4): 19/135 kB | 33/78 kB | 5.5/7.1 kB | 11/95 kBProgress (4): 19/135 kB | 33/78 kB | 5.5/7.1 kB | 14/95 kBProgress (4): 19/135 kB | 33/78 kB | 7.1 kB | 14/95 kB    Progress (4): 19/135 kB | 37/78 kB | 7.1 kB | 14/95 kBProgress (4): 19/135 kB | 41/78 kB | 7.1 kB | 14/95 kB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 137 kB/s)
+Progress (3): 19/135 kB | 41/78 kB | 17/95 kBProgress (3): 19/135 kB | 41/78 kB | 19/95 kBProgress (3): 19/135 kB | 41/78 kB | 22/95 kBProgress (3): 19/135 kB | 41/78 kB | 25/95 kBProgress (3): 22/135 kB | 41/78 kB | 25/95 kBProgress (3): 25/135 kB | 41/78 kB | 25/95 kBProgress (3): 28/135 kB | 41/78 kB | 25/95 kBProgress (3): 28/135 kB | 45/78 kB | 25/95 kBProgress (3): 28/135 kB | 49/78 kB | 25/95 kBProgress (3): 28/135 kB | 53/78 kB | 25/95 kBProgress (3): 28/135 kB | 57/78 kB | 25/95 kBProgress (3): 28/135 kB | 61/78 kB | 25/95 kBProgress (3): 28/135 kB | 66/78 kB | 25/95 kBProgress (3): 28/135 kB | 66/78 kB | 28/95 kBProgress (3): 28/135 kB | 66/78 kB | 30/95 kBProgress (3): 30/135 kB | 66/78 kB | 30/95 kBProgress (3): 33/135 kB | 66/78 kB | 30/95 kBProgress (3): 36/135 kB | 66/78 kB | 30/95 kBProgress (3): 39/135 kB | 66/78 kB | 30/95 kBProgress (3): 41/135 kB | 66/78 kB | 30/95 kBProgress (3): 44/135 kB | 66/78 kB | 30/95 kBProgress (3): 44/135 kB | 70/78 kB | 30/95 kBProgress (3): 44/135 kB | 70/78 kB | 33/95 kBProgress (3): 44/135 kB | 70/78 kB | 36/95 kBProgress (3): 44/135 kB | 70/78 kB | 40/95 kBProgress (3): 44/135 kB | 70/78 kB | 44/95 kBProgress (3): 44/135 kB | 70/78 kB | 48/95 kBProgress (3): 47/135 kB | 70/78 kB | 48/95 kBProgress (3): 47/135 kB | 74/78 kB | 48/95 kBProgress (3): 47/135 kB | 78/78 kB | 48/95 kBProgress (3): 47/135 kB | 78 kB | 48/95 kB   Progress (3): 50/135 kB | 78 kB | 48/95 kBProgress (3): 52/135 kB | 78 kB | 48/95 kBProgress (3): 55/135 kB | 78 kB | 48/95 kBProgress (3): 58/135 kB | 78 kB | 48/95 kBProgress (3): 61/135 kB | 78 kB | 48/95 kBProgress (3): 61/135 kB | 78 kB | 52/95 kBProgress (3): 61/135 kB | 78 kB | 56/95 kBProgress (3): 61/135 kB | 78 kB | 60/95 kBProgress (3): 61/135 kB | 78 kB | 65/95 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar (78 kB at 440 kB/s)
+Progress (2): 63/135 kB | 65/95 kBProgress (2): 68/135 kB | 65/95 kBProgress (2): 72/135 kB | 65/95 kBProgress (2): 76/135 kB | 65/95 kBProgress (2): 80/135 kB | 65/95 kBProgress (2): 80/135 kB | 69/95 kBProgress (2): 80/135 kB | 73/95 kBProgress (2): 80/135 kB | 77/95 kBProgress (2): 80/135 kB | 81/95 kBProgress (2): 80/135 kB | 85/95 kBProgress (2): 80/135 kB | 89/95 kBProgress (2): 84/135 kB | 89/95 kBProgress (2): 84/135 kB | 93/95 kBProgress (2): 84/135 kB | 95 kB   Progress (2): 88/135 kB | 95 kBProgress (2): 92/135 kB | 95 kBProgress (2): 96/135 kB | 95 kBProgress (2): 100/135 kB | 95 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar (95 kB at 410 kB/s)
+Progress (1): 104/135 kBProgress (1): 108/135 kBProgress (1): 113/135 kBProgress (1): 117/135 kBProgress (1): 121/135 kBProgress (1): 125/135 kBProgress (1): 129/135 kBProgress (1): 133/135 kBProgress (1): 135 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar (135 kB at 500 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.notthebest.demo.[1mSecretsantaApplicationTests[m
+08:09:18.803 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:09:18.831 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:09:18.974 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.notthebest.demo.SecretsantaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+08:09:19.014 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.notthebest.demo.SecretsantaApplicationTests], using SpringBootContextLoader
+08:09:19.020 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.notthebest.demo.SecretsantaApplicationTests]: class path resource [com/notthebest/demo/SecretsantaApplicationTests-context.xml] does not exist
+08:09:19.021 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.notthebest.demo.SecretsantaApplicationTests]: class path resource [com/notthebest/demo/SecretsantaApplicationTestsContext.groovy] does not exist
+08:09:19.022 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.notthebest.demo.SecretsantaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:09:19.022 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.notthebest.demo.SecretsantaApplicationTests]: SecretsantaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:09:19.125 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.notthebest.demo.SecretsantaApplicationTests]
+08:09:19.270 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/git-tst-private/target/classes/com/notthebest/demo/SecretsantaApplication.class]
+08:09:19.273 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.notthebest.demo.SecretsantaApplication for test class com.notthebest.demo.SecretsantaApplicationTests
+08:09:19.446 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.notthebest.demo.SecretsantaApplicationTests]: using defaults.
+08:09:19.447 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+08:09:19.468 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f284218, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@407a7f2a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4ea5b703, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2a7ed1f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fa247d1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2cb2fc20, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4f4c4b1a, org.springframework.test.context.event.EventPublishingTestExecutionListener@723e88f9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f0fd5a0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@64e7619d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@495ee280, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4fa1c212, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ea2bc93, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3116c353]
+08:09:19.473 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6736fa8d testClass = SecretsantaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@52815fa3 testClass = SecretsantaApplicationTests, locations = '{}', classes = '{class com.notthebest.demo.SecretsantaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6c40365c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@55b0dcab, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7d8704ef, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3af9c5b7, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+08:09:19.511 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2024-09-11 08:09:20.201  INFO 273912 --- [           main] c.n.demo.SecretsantaApplicationTests     : Starting SecretsantaApplicationTests on devopsshack with PID 273912 (started by jenkins in /var/lib/jenkins/workspace/git-tst-private)
+2024-09-11 08:09:20.204  INFO 273912 --- [           main] c.n.demo.SecretsantaApplicationTests     : No active profile set, falling back to default profiles: default
+2024-09-11 08:09:21.501  INFO 273912 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2024-09-11 08:09:21.629  INFO 273912 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 1 JPA repository interfaces.
+2024-09-11 08:09:22.829  INFO 273912 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-11 08:09:22.867  INFO 273912 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-11 08:09:23.179  INFO 273912 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-11 08:09:23.371  INFO 273912 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 08:09:23.564  INFO 273912 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2024-09-11 08:09:23.954  INFO 273912 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-09-11 08:09:24.008  WARN 273912 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 08:09:24.301  INFO 273912 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-09-11 08:09:25.022  INFO 273912 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-09-11 08:09:25.765  INFO 273912 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2024-09-11 08:09:25.822  INFO 273912 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-11 08:09:25.853  INFO 273912 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 08:09:26.148  INFO 273912 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2024-09-11 08:09:26.162  INFO 273912 --- [           main] c.n.demo.SecretsantaApplicationTests     : Started SecretsantaApplicationTests in 6.633 seconds (JVM running for 8.711)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.929 s - in com.notthebest.demo.[1mSecretsantaApplicationTests[m
+2024-09-11 08:09:26.526  INFO 273912 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 08:09:26.527  INFO 273912 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-09-11 08:09:26.546  INFO 273912 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-11 08:09:26.548  INFO 273912 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-11 08:09:26.570  INFO 273912 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/git-tst-private/target/secretsanta-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:repackage[m [1m(repackage)[m @ [36msecretsanta[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  18.885 s
+[[1;34mINFO[m] Finished at: 2024-09-11T08:09:28Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4CboXVxg56msHvS7uGqy3x7RxNhME2c+AJ2uOAkqmiJrAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4CUgz44dTg3VnWreWyJmAq7OYkWb0l0zI5tUalK+QR9NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4OWNPeN3HEdqNKHKHfq71fuPZwIVIJ6ebqBG8O0pEvmVAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4I3OEGd0HljNPahfT+gCHinJAvG16uCkYkCTsh+3zfiaAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4OLXlIPi8sd3YnbHR0S9fsxGq4wPZGKDsC2rsKxVngnWAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

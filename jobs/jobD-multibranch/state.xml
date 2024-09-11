@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1178.v969d9eb_c728e">
+  <sourceActions>
+    <entry>
+      <string>a4844a81-355a-45dc-bfdb-2227aaa4bc48</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@5.4.1">
+          <remote>https://github.com/vijkes/FullStack-Blogging-App.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,115 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>CHOICE_PARAM</string>
+        <string>CREDENTIALS_PARAM</string>
+        <string>BOOLEAN_PARAM</string>
+        <string>FILE_PARAM</string>
+        <string>PASSWORD_PARAM</string>
+        <string>STRING_PARAM</string>
+        <string>TEXT_PARAM</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>STRING_PARAM</name>
+          <description>Name of Branch</description>
+          <defaultValue>feature2</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>BOOLEAN_PARAM</name>
+          <description>Enable/disable something</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>CHOICE_PARAM</name>
+          <choices>
+            <string>main</string>
+            <string>Dev</string>
+            <string>feature1</string>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>PASSWORD_PARAM</name>
+          <description>Enable/disable something</description>
+          <defaultValue>{AQAAABAAAAAQSQs+mtf2P/IO1zCOFbRFveIVe2lqKLiU0JFYeah3Dyg=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+        <hudson.model.FileParameterDefinition>
+          <name>FILE_PARAM</name>
+          <description>Upload a file</description>
+        </hudson.model.FileParameterDefinition>
+        <hudson.model.TextParameterDefinition>
+          <name>TEXT_PARAM</name>
+          <description>Enter multi-line text</description>
+          <defaultValue>default text</defaultValue>
+          <trim>false</trim>
+        </hudson.model.TextParameterDefinition>
+        <com.cloudbees.plugins.credentials.CredentialsParameterDefinition plugin="credentials@1371.vfee6b_095f0a_3">
+          <name>CREDENTIALS_PARAM</name>
+          <description>Select cred</description>
+          <credentialType>com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl</credentialType>
+          <required>false</required>
+        </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3953.v19f11da_8d2fa_">
+    <script>pipeline {
+    agent any
+    
+    parameters {
+        string (name: &apos;STRING_PARAM&apos;, defaultValue: &apos;feature2&apos;, description: &apos;Name of Branch&apos;)
+        booleanParam(name: &apos;BOOLEAN_PARAM&apos;, defaultValue: true, description: &apos;Enable/disable something&apos;)
+        choice (name: &apos;CHOICE_PARAM&apos;, choices: [&apos;main&apos;, &apos;Dev&apos;, &apos;feature1&apos;])
+        password(name: &apos;PASSWORD_PARAM&apos;, defaultValue: &apos;passlast&apos;, description: &apos;Enable/disable something&apos; )
+        file(name: &apos;FILE_PARAM&apos;,description: &apos;Upload a file&apos;)
+        text(name: &apos;TEXT_PARAM&apos;, defaultValue: &apos;default text&apos;, description: &apos;Enter multi-line text&apos;)
+        credentials(name: &apos;CREDENTIALS_PARAM&apos;, description: &apos;Select cred&apos;, credentialType: &apos;com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl&apos;)
+    }
+
+    stages {
+        // stage(&apos;Hello&apos;) {
+        //     steps {
+        //         git branch: &quot;${params.Branch_name}&quot;, url: &apos;https://github.com/vijkes/FullStack-Blogging-App.git&apos;
+        //     }
+        // }
+        
+        // stage(&apos;Hello2&apos;) {
+        //     steps {
+        //         echo &apos;Hello World&apos;
+        //     }
+        // }
+        stage (&apos;Display Parameters&apos;) {
+            steps {
+                script{
+                    echo &quot;STRING_PARAM: ${params.STRING_PARAM}&quot;
+                    echo &quot;BOOLEAN_PARAM: ${params.BOOLEAN_PARAM}&quot;
+                    echo &quot;CHOICE_PARAM: ${params.CHOICE_PARAM}&quot;
+                    echo &quot;PASSWORD_PARAM: ${params.PASSWORD_PARAM}&quot;
+                    echo &quot;FILE_PARAM: ${params.FILE_PARAM}&quot;
+                    echo &quot;TEXT_PARAM: ${params.TEXT_PARAM}&quot;
+                    echo &quot;CREDENTIALS_PARAM: ${params.CREDENTIALS_PARAM}&quot;
+                    
+                }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

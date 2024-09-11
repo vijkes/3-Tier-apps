@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4EF2yGDDbcDtV1imEiIO3ovkxXCe6YFLa15dTmT5fSeWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JBB21S0t0AcAaZ0NXcIAAAA=[0mjobE-up" build number [8mha:////4Bw5b9tg2hf/MCXqmhO0FIOjRtbI4khGdbAsLZVDJq/IAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkEHbVLS3QNwcAH0iNQcMAAAA=[0m7
+originally caused by:
+ Started by user [8mha:////4CMaUPQxOfaBOaOfKohYnRHLhfH7O1Ua8Mwz9KXiWpvQAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/dLi1CL9smwApW/hfL0AAAA=[0mvk
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/jobI-onFailure
+[jobI-onFailure] $ /bin/sh -xe /tmp/jenkins8562033555464178269.sh
++ echo if you are seeing this it means, your job has failed
+if you are seeing this it means, your job has failed
+Finished: SUCCESS
